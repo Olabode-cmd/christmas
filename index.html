@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christman Promotion || CR1 Bars and Lounge</title>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/preline@2.5.0/"></script> -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="p-0 m-0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Uncial+Antiqua&display=swap');
+
+        a,p,span,button {
+            font-family: "Poppins", serif;
+            color: white;
+        }
+        h1,h2,h3 {
+            font-family: "Uncial Antiqua", system-ui;
+            color: white;
+        }
+        h4, h5, h6 {
+            color: white;
+        }
+        img {
+            max-width: 100%;
+        }
+
+        header {
+            background: linear-gradient(to right, #00000080, #00000098), url('images/markus-spiske-TymR-rSAMnI-unsplash.jpg');
+            height: 85vh;
+            background-attachment: fixed;
+            padding-top: 16px;
+            position: relative;
+        }
+        .wreath {
+            position: absolute;
+            bottom: 3%;
+            left: 10px;
+            animation: spin 13s infinite linear;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg)
+            }
+            100% {
+                transform: rotate(360deg)
+            }
+        }
+
+        @media (max-width: 767px) {
+            header {
+                background-position: 60%;
+            }
+            .wreath {
+                left: 45%;
+                transform: translateX(-50%);
+            }
+        }
+    </style>
+    <div class="bg-[#010101]">
+        <header class="z-20">
+            <div class="logo mx-auto w-[95px]">
+                <img src="images/bar-logo.png" alt="logo">
+            </div>
+            
+            <div class="mt-28">
+                <h1 class="uppercase text-center text-white text-3xl" data-aos="fade-up" data-aos-duration="900">christmas menu</h1>
+                <p class="font-medium text-gray-50 text-sm uppercase text-center mt-2" data-aos="fade-up" data-aos-duration="900" data-aos-delay="300">2 course menu &pound;30 per person, 3 course
+                    &pound;36 per person</p>
+            </div>
+
+            <img src="images/wreath.png" alt="wreath" class="wreath w-[75px] md:w-[95px] lg:w-[135px]" data-aos="fade-up" data-aos-duration="900" data-aos-delay="500">
+        </header>
+
+        <section class="container mx-auto section-menu px-4 py-8">
+            <div class="starter relative pt-10">
+                <h3 class="text-lg text-white uppercase text-center" data-aos="fade-up" data-aos-duration="900">starter</h3>
+                <img src="images/gallery-elements-1.png" alt="gallery" class="fixed left-4 bottom-5 ">
+                <img src="images/gallery-elements-3.png" alt="gallery" class="fixed right-4 top-5 ">
+
+                <div class="mt-6 grid gap-4 grid-cols-1 md:grid-cols-3">
+                    <div data-aos="fade-up" data-aos-duration="900" class="flex flex-col justify-between pt-8 pb-4 px-4 rounded-lg bg-white/10 backdrop-blur-md border border-white/30 hover:bg-amber-600 duration-300">
+                        <div>
+                            <h4 class="text-xl font-medium uppercase">Hot Tiger King Prawn</h4>
+                            <p class="font-medium text-sm mt-1">With Chili, garlic, herb, and butter</p>
+                        </div>
+
+                        <div class="flex justify-end">
+                            <img src="images/square-illusion.png" alt="square" class="w-[45px]">
+                        </div>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-duration="900" data-aos-delay="300"
+                        class="flex flex-col justify-between pt-8 pb-4 px-4 rounded-lg bg-white/10 backdrop-blur-md border border-white/30 hover:bg-amber-600 duration-300">
+                        <div>
+                            <h4 class="text-xl font-medium uppercase">vegan sausage roll (v)</h4>
+                            <p class="font-medium text-sm mt-1">A chunky puff pastry roll with wheat protein filling, seasoned with onions, mushrooms and
+                                sage, a vegan alternative to a sausage roll.</p>
+                        </div>
+                    
+                        <div class="flex justify-end">
+                            <img src="images/square-illusion.png" alt="square" class="w-[45px]">
+                        </div>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-duration="900" data-aos-delay="500"
+                        class="flex flex-col justify-between pt-8 pb-4 px-4 rounded-lg bg-white/10 backdrop-blur-md border border-white/30 hover:bg-amber-600 duration-300">
+                        <div>
+                            <h4 class="text-xl font-medium uppercase">sweet red tomato & potato soup (v)</h4>
+                            <p class="font-medium text-sm mt-1">Diced potato and carrot with green pees and parsley</p>
+                        </div>
+                    
+                        <div class="flex justify-end">
+                            <img src="images/square-illusion.png" alt="square" class="w-[45px]">
+                        </div>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-duration="900"
+                        class="flex flex-col justify-between pt-8 pb-4 px-4 rounded-lg bg-white/10 backdrop-blur-md border border-white/30 hover:bg-amber-600 duration-300">
+                        <div>
+                            <h4 class="text-xl font-medium uppercase">chunky beef</h4>
+                            <p class="font-medium text-sm mt-1">Premium beef diced as served in hot or mild pepper sauce</p>
+                        </div>
+                    
+                        <div class="flex justify-end">
+                            <img src="images/square-illusion.png" alt="square" class="w-[45px]">
+                        </div>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-duration="900" data-aos-delay="300"
+                        class="flex flex-col justify-between pt-8 pb-4 px-4 rounded-lg bg-white/10 backdrop-blur-md border border-white/30 hover:bg-amber-600 duration-300">
+                        <div>
+                            <h4 class="text-xl font-medium uppercase">goats chese & caramelised onion arancini</h4>
+                            <p class="font-medium text-sm mt-1">Slow cooked onions with balsamic vinegar</p>
+                        </div>
+                    
+                        <div class="flex justify-end">
+                            <img src="images/square-illusion.png" alt="square" class="w-[45px]">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="course relative mt-24">
+                <h3 class="text-lg text-white uppercase text-center" data-aos="fade-up" data-aos-duration="700">main course</h3>
+
+                <div class="mt-6 grid gap-4 grid-cols-1 md:grid-cols-3">
+                    <div data-aos="fade-up" data-aos-duration="700" class="flex flex-col justify-between pt-8 pb-4 px-4 rounded-lg bg-white/10 backdrop-blur-md border border-white/30 hover:bg-amber-600 duration-300">
+                        <div>
+                            <h4 class="text-xl font-medium uppercase">cranberry-glazed roasted turkey breast</h4>
+                            <p class="font-medium text-sm mt-1">Served with roasted potates, pigs in blanket and cranberry sauce</p>
+                        </div>
+
+                        <div class="flex justify-end">
+                            <img src="images/diamond.png" alt="square" class="w-[45px]">
+                        </div>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-duration="700" data-aos-delay="200"
+                        class="flex flex-col justify-between pt-8 pb-4 px-4 rounded-lg bg-white/10 backdrop-blur-md border border-white/30 hover:bg-amber-600 duration-300">
+                        <div>
+                            <h4 class="text-xl font-medium uppercase">honey garlic salmon</h4>
+                            <p class="font-medium text-sm mt-1">Baked in lemon, garlic, butter and honey. Served with roasted potatoes and veggies.</p>
+                        </div>
+                    
+                        <div class="flex justify-end">
+                            <img src="images/diamond.png" alt="square" class="w-[45px]">
+                        </div>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-duration="700" data-aos-delay="400"
+                        class="flex flex-col justify-between pt-8 pb-4 px-4 rounded-lg bg-white/10 backdrop-blur-md border border-white/30 hover:bg-amber-600 duration-300">
+                        <div>
+                            <h4 class="text-xl font-medium uppercase">creamy courgette lasagna (v)</h4>
+                            <p class="font-medium text-sm mt-1">
+                                Vegetarian lasagne bursting with spinach, courgettes held together with a creamy
+                                mascarpone sauce
+                            </p>
+                        </div>
+                    
+                        <div class="flex justify-end">
+                            <img src="images/diamond.png" alt="square" class="w-[45px]">
+                        </div>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-duration="700"
+                        class="flex flex-col justify-between pt-8 pb-4 px-4 rounded-lg bg-white/10 backdrop-blur-md border border-white/30 hover:bg-amber-600 duration-300">
+                        <div>
+                            <h4 class="text-xl font-medium uppercase">jollof rice</h4>
+                            <p class="font-medium text-sm mt-1">
+                                CR1 Jollof rice served with a choice of chicken wings. beef or plantain
+                            </p>
+                        </div>
+                    
+                        <div class="flex justify-end">
+                            <img src="images/diamond.png" alt="square" class="w-[45px]">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="desserts relative mt-24">
+                <h3 class="text-lg text-white uppercase text-center" data-aos="fade-up" data-aos-duration="700">dessert</h3>
+            
+                <div class="mt-6 grid gap-4 grid-cols-1 md:grid-cols-3">
+                    <div data-aos="fade-up" data-aos-duration="700"
+                        class="pt-8 pb-4 px-4 rounded-lg bg-white/10 backdrop-blur-md border border-white/30 hover:bg-amber-600 duration-300">
+                        <div>
+                            <h4 class="text-xl font-medium uppercase">christmas pudding</h4>
+                        </div>
+            
+                        <div class="flex justify-end">
+                            <img src="images/double-helix.png" alt="square" class="w-[45px] mt-8">
+                        </div>
+                    </div>
+            
+                    <div data-aos="fade-up" data-aos-duration="700" data-aos-delay="200"
+                        class="pt-8 pb-4 px-4 rounded-lg bg-white/10 backdrop-blur-md border border-white/30 hover:bg-amber-600 duration-300">
+                        <div>
+                            <h4 class="text-xl font-medium uppercase">chocolate log</h4>
+                        </div>
+                    
+                        <div class="flex justify-end">
+                            <img src="images/double-helix.png" alt="square" class="w-[45px] mt-8">
+                        </div>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-duration="700" data-aos-delay="400"
+                        class="pt-8 pb-4 px-4 rounded-lg bg-white/10 backdrop-blur-md border border-white/30 hover:bg-amber-600 duration-300">
+                        <div>
+                            <h4 class="text-xl font-medium uppercase">ice cream</h4>
+                        </div>
+                    
+                        <div class="flex justify-end">
+                            <img src="images/double-helix.png" alt="square" class="w-[45px] mt-8">
+                        </div>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-duration="700"
+                        class="pt-8 pb-4 px-4 rounded-lg bg-white/10 backdrop-blur-md border border-white/30 hover:bg-amber-600 duration-300">
+                        <div>
+                            <h4 class="text-xl font-medium uppercase">vegan chocolate ice cream (v)</h4>
+                        </div>
+                    
+                        <div class="flex justify-end">
+                            <img src="images/double-helix.png" alt="square" class="w-[45px] mt-8">
+                        </div>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-duration="700" data-aos-delay="200"
+                        class="pt-8 pb-4 px-4 rounded-lg bg-white/10 backdrop-blur-md border border-white/30 hover:bg-amber-600 duration-300">
+                        <div>
+                            <h4 class="text-xl font-medium uppercase">classic tiramisu</h4>
+                        </div>
+                    
+                        <div class="flex justify-end">
+                            <img src="images/double-helix.png" alt="square" class="w-[45px] mt-8">
+                        </div>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-duration="700" data-aos-delay="400"
+                        class="pt-8 pb-4 px-4 rounded-lg bg-white/10 backdrop-blur-md border border-white/30 hover:bg-amber-600 duration-300">
+                        <div>
+                            <h4 class="text-xl font-medium uppercase">sticky toffee pudding</h4>
+                        </div>
+                    
+                        <div class="flex justify-end">
+                            <img src="images/double-helix.png" alt="square" class="w-[45px] mt-8">
+                        </div>
+                    </div>
+            
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
